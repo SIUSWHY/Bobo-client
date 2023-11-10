@@ -5,14 +5,27 @@ import { useState } from 'react';
 function Onboarding() {
     const [step, setStep] = useState<number>(0);
 
+    const titleArr = [
+        'Welcome to Bobo, a great friend to chat with you',
+        'If you confused about what to do, just open Bobo',
+        'Bobo will be ready to chat and make you happy',
+    ];
+
+    const setNewStep = () => {
+        if (step === 2 || step > 2) {
+            return;
+        }
+        setStep(step + 1);
+    };
+
     return (
         <View style={styles.container}>
             <View style={styles.img}></View>
-            <Text style={styles.title}>Welcome to Bobo, a great friend to chat with you</Text>
+            <Text style={styles.title}>{titleArr[step]}</Text>
             <View style={styles.stepperContainer}>
                 <Text>...</Text>
             </View>
-            <BButton title={'Next'} callback={() => setStep(step + 1)} />
+            <BButton title={step < 2 ? 'Next' : 'Get Started'} callback={() => setNewStep()} />
         </View>
     );
 }
