@@ -1,11 +1,11 @@
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
 
-interface CustomButtonType {
+interface BButtonType {
     callback: any;
     title: string;
 }
 
-function CustomButton({ callback, title }: CustomButtonType): JSX.Element {
+function BButton({ callback, title }: BButtonType): JSX.Element {
     return (
         <TouchableOpacity style={styles.container} onPress={callback}>
             <Text style={styles.text}>{title}</Text>
@@ -28,4 +28,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default CustomButton;
+export default BButton;
