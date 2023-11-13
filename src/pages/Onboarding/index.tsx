@@ -3,7 +3,7 @@ import BButton from '../../components/Button';
 import BStepper from '../../components/Stepper';
 import { useState } from 'react';
 
-function Onboarding() {
+function Onboarding({ navigation }) {
     const [step, setStep] = useState<number>(0);
 
     const titleArr = [
@@ -14,6 +14,7 @@ function Onboarding() {
 
     const setNewStep = () => {
         if (step === 2 || step > 2) {
+            navigation.navigate('LetsIn');
             return;
         }
         setStep(step + 1);
@@ -35,6 +36,7 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         padding: 20,
+        backgroundColor: '#181A20',
     },
     img: {
         flex: 3,
