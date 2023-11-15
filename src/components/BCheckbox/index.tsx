@@ -9,7 +9,7 @@ interface BCheckBoxType {
 }
 
 function BCheckbox({ onPress, title, isChecked }: BCheckBoxType) {
-    const iconName = isChecked ? 'checkbox-marked' : 'checkbox-blank-outline';
+    const iconName = isChecked ? 'square-check' : 'square-check';
 
     return (
         <View style={styles.container}>

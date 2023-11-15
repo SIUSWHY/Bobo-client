@@ -2,7 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import BSocialLogin from '../../components/BSocialLogin';
 import BButton from '../../components/Button';
 import Layout from '../../components/Layout';
-import BColors from '../../utilities/colors';
+import BSeparator from '../../components/BSeparator';
 
 function LetsIn({ navigation }) {
     return (
@@ -14,11 +14,7 @@ function LetsIn({ navigation }) {
                 <BSocialLogin title="Google"></BSocialLogin>
                 <BSocialLogin title="Apple"></BSocialLogin>
             </View>
-            <View style={styles.orSection}>
-                <View style={styles.separator}></View>
-                <Text style={styles.orText}>or</Text>
-                <View style={styles.separator}></View>
-            </View>
+            <BSeparator text="or"></BSeparator>
             <View style={{ flex: 1 }}>
                 <BButton title="Sign in with password" callback={() => navigation.navigate('SignUp')}></BButton>
             </View>
@@ -33,24 +29,6 @@ function LetsIn({ navigation }) {
 const styles = StyleSheet.create({
     signUp: {
         textAlign: 'center',
-    },
-    orSection: {
-        display: 'flex',
-        flexDirection: 'row',
-        marginVertical: 10,
-        alignItems: 'center',
-        flex: 1,
-    },
-    orText: {
-        marginHorizontal: 10,
-        fontFamily: 'Jost-Bold',
-        fontSize: 20,
-    },
-    separator: {
-        borderColor: BColors.grey_10,
-        borderBottomWidth: 1,
-        flex: 1,
-        width: '50%',
     },
     btnContainer: {
         flex: 1,
