@@ -1,4 +1,5 @@
 import { StyleSheet, Text, TouchableOpacity } from 'react-native';
+import BColors from '../../utilities/colors';
 
 interface BButtonType {
     callback: any;
@@ -16,7 +17,7 @@ function BButton({ callback, title }: BButtonType): JSX.Element {
 const styles = StyleSheet.create({
     container: {
         height: 50,
-        backgroundColor: '#00cdbd',
+        backgroundColor: BColors.primary,
         borderRadius: 50,
         display: 'flex',
         justifyContent: 'center',

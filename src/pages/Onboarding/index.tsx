@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import BButton from '../../components/Button';
 import BStepper from '../../components/Stepper';
 import { useState } from 'react';
+import Layout from '../../components/Layout';
 
 function Onboarding({ navigation }) {
     const [step, setStep] = useState<number>(0);
@@ -21,23 +22,18 @@ function Onboarding({ navigation }) {
     };
 
     return (
-        <View style={styles.container}>
+        <Layout>
             <View style={styles.img}></View>
             <Text style={styles.title}>{titleArr[step]}</Text>
             <View style={styles.stepperContainer}>
                 <BStepper currentStep={step} count={3}></BStepper>
             </View>
             <BButton title={step < 2 ? 'Next' : 'Get Started'} callback={() => setNewStep()} />
-        </View>
+        </Layout>
     );
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        padding: 20,
-        backgroundColor: '#181A20',
-    },
     img: {
         flex: 3,
     },

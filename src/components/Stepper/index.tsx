@@ -1,5 +1,5 @@
-import { useEffect, useRef } from 'react';
-import { Animated, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+import BColors from '../../utilities/colors';
 
 interface BStepperType {
     count: number;
@@ -21,7 +21,7 @@ function BStepper({ count, currentStep }: BStepperType) {
 const styles = StyleSheet.create({
     step: {
         height: 7,
-        backgroundColor: '#00cdbd',
+        backgroundColor: BColors.primary,
         borderRadius: 5,
     },
     wrapper: {
