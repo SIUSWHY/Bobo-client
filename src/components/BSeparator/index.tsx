@@ -19,7 +19,6 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         marginVertical: 10,
         alignItems: 'center',
-        flex: 1,
     },
     orText: {
         marginHorizontal: 10,

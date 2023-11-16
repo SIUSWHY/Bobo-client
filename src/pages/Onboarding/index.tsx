@@ -38,7 +38,9 @@ const styles = StyleSheet.create({
         flex: 3,
     },
     stepperContainer: {
-        marginVertical: 10,
+        marginVertical: 25,
+        display: 'flex',
+        alignItems: 'center',
     },
     title: {
         fontSize: 48,

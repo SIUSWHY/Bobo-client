@@ -7,17 +7,14 @@ import BSeparator from '../../components/BSeparator';
 function LetsIn({ navigation }) {
     return (
         <Layout>
-            <View style={styles.img}></View>
             <Text style={styles.title}>Let's you in</Text>
             <View style={styles.btnContainer}>
-                <BSocialLogin title="Facebook"></BSocialLogin>
-                <BSocialLogin title="Google"></BSocialLogin>
-                <BSocialLogin title="Apple"></BSocialLogin>
+                <BSocialLogin iconName="facebook" title="Facebook"></BSocialLogin>
+                <BSocialLogin iconName="google" title="Google"></BSocialLogin>
+                <BSocialLogin iconName="apple" title="Apple"></BSocialLogin>
             </View>
             <BSeparator text="or"></BSeparator>
-            <View style={{ flex: 1 }}>
-                <BButton title="Sign in with password" callback={() => navigation.navigate('SignUp')}></BButton>
-            </View>
+            <BButton title="Sign in with password" callback={() => navigation.navigate('SignUp')}></BButton>
             <Text style={styles.signUp}>
                 Don't have an account?
                 <Text> Sign Up</Text>
@@ -29,14 +26,11 @@ function LetsIn({ navigation }) {
 const styles = StyleSheet.create({
     signUp: {
         textAlign: 'center',
+        paddingVertical: 10,
     },
     btnContainer: {
-        flex: 1,
         marginVertical: 20,
         rowGap: 15,
-    },
-    img: {
-        flex: 3,
     },
     title: {
         fontSize: 48,
