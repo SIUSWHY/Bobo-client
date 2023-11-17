@@ -5,6 +5,7 @@ import com.facebook.react.ReactActivityDelegate;
 import android.os.Bundle;
 import com.facebook.react.defaults.DefaultNewArchitectureEntryPoint;
 import com.facebook.react.defaults.DefaultReactActivityDelegate;
+import org.devio.rn.splashscreen.SplashScreen; // here
 
 public class MainActivity extends ReactActivity {
 
@@ -16,6 +17,14 @@ public class MainActivity extends ReactActivity {
   protected String getMainComponentName() {
     return "Bobo";
   }
+
+  @Override
+    protected void onCreate(Bundle savedInstanceState) {
+      SplashScreen.show(this, R.id.lottie); // here
+      SplashScreen.setAnimationFinished(true); // If you want the animation dialog to be forced to close when hide is called, use this code
+      super.onCreate(savedInstanceState);
+      // ...other code
+    }
 
   /**
    * Returns the instance of the {@link ReactActivityDelegate}. Here we use a util class {@link

@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bobo.app-mergeDebugResources-35:/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "com.bobo.app-mergeDebugResources-36:/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
                     "source": "/home/progforce/.gradle/caches/transforms-3/8a4582fcf4777cd70591117a23078262/transformed/appcompat-1.5.0/res/values-watch-v20/values-watch-v20.xml",

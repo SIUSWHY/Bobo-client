@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bobo.app-mergeDebugResources-35:/values-fi/values-fi.xml",
+            "outputFile": "com.bobo.app-mergeDebugResources-36:/values-fi/values-fi.xml",
             "map": [
                 {
                     "source": "/home/progforce/.gradle/caches/transforms-3/9623e378e4dfc57c47793d0ffd25ee05/transformed/core-1.8.0/res/values-fi/values-fi.xml",

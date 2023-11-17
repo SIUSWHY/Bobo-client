@@ -8,12 +8,14 @@ MERGED from /home/progforce/WorkSpace/Bobo-client/android/app/src/main/AndroidMa
 MERGED from [com.facebook.flipper:flipper-network-plugin:0.182.0] /home/progforce/.gradle/caches/transforms-3/e47626a30834dcd66576d826bae55315/transformed/jetified-flipper-network-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /home/progforce/.gradle/caches/transforms-3/927874504f02e490d8ef5fc541319ddd/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:8:1-15:12
 MERGED from [com.facebook.flipper:flipper:0.182.0] /home/progforce/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:8:1-18:12
+MERGED from [:react-native-lottie-splash-screen] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-lottie-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-10:12
 MERGED from [:react-native-safe-area-context] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-screens] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [:react-native-vector-icons] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:react-android:0.72.6] /home/progforce/.gradle/caches/transforms-3/620147001f23a61fa54dd66c3890cad2/transformed/jetified-react-android-0.72.6-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.react:hermes-android:0.72.6] /home/progforce/.gradle/caches/transforms-3/82fc49c66eb188cd9d470265c2f5633f/transformed/jetified-hermes-android-0.72.6-debug/AndroidManifest.xml:2:1-7:12
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/progforce/.gradle/caches/transforms-3/463b085172aadec89519c358dac4e9e6/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.airbnb.android:lottie:3.4.4] /home/progforce/.gradle/caches/transforms-3/a2486ff9fb9804fd0f05e5d2ad5423c4/transformed/jetified-lottie-3.4.4/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.9.0] /home/progforce/.gradle/caches/transforms-3/dd33cdba76574cd6269c5bd29e434651/transformed/material-1.9.0/AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /home/progforce/.gradle/caches/transforms-3/aff50e2a9b3c13dbf5f6a2bb255f515d/transformed/jetified-appcompat-resources-1.5.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/progforce/.gradle/caches/transforms-3/da04db25643cb9506bb2398f6610984b/transformed/constraintlayout-2.0.1/AndroidManifest.xml:2:1-11:12
@@ -106,6 +108,10 @@ application
 ADDED from /home/progforce/WorkSpace/Bobo-client/android/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from /home/progforce/WorkSpace/Bobo-client/android/app/src/main/AndroidManifest.xml:5:5-24:19
 MERGED from /home/progforce/WorkSpace/Bobo-client/android/app/src/main/AndroidManifest.xml:5:5-24:19
+MERGED from [:react-native-lottie-splash-screen] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-lottie-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-8:19
+MERGED from [:react-native-lottie-splash-screen] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-lottie-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-8:19
+MERGED from [com.airbnb.android:lottie:3.4.4] /home/progforce/.gradle/caches/transforms-3/a2486ff9fb9804fd0f05e5d2ad5423c4/transformed/jetified-lottie-3.4.4/AndroidManifest.xml:9:5-20
+MERGED from [com.airbnb.android:lottie:3.4.4] /home/progforce/.gradle/caches/transforms-3/a2486ff9fb9804fd0f05e5d2ad5423c4/transformed/jetified-lottie-3.4.4/AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.material:material:1.9.0] /home/progforce/.gradle/caches/transforms-3/dd33cdba76574cd6269c5bd29e434651/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [com.google.android.material:material:1.9.0] /home/progforce/.gradle/caches/transforms-3/dd33cdba76574cd6269c5bd29e434651/transformed/material-1.9.0/AndroidManifest.xml:24:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] /home/progforce/.gradle/caches/transforms-3/da04db25643cb9506bb2398f6610984b/transformed/constraintlayout-2.0.1/AndroidManifest.xml:9:5-20
@@ -182,6 +188,8 @@ MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /home/progforce
 MERGED from [com.facebook.flipper:flipper-fresco-plugin:0.182.0] /home/progforce/.gradle/caches/transforms-3/927874504f02e490d8ef5fc541319ddd/transformed/jetified-flipper-fresco-plugin-0.182.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.182.0] /home/progforce/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
 MERGED from [com.facebook.flipper:flipper:0.182.0] /home/progforce/.gradle/caches/transforms-3/e13f88164840fe641a466d05cd8edac7/transformed/jetified-flipper-0.182.0/AndroidManifest.xml:11:5-13:41
+MERGED from [:react-native-lottie-splash-screen] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-lottie-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
+MERGED from [:react-native-lottie-splash-screen] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-lottie-splash-screen/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-safe-area-context] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
 MERGED from [:react-native-screens] /home/progforce/WorkSpace/Bobo-client/node_modules/react-native-screens/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-44
@@ -194,6 +202,8 @@ MERGED from [com.facebook.react:hermes-android:0.72.6] /home/progforce/.gradle/c
 MERGED from [com.facebook.react:hermes-android:0.72.6] /home/progforce/.gradle/caches/transforms-3/82fc49c66eb188cd9d470265c2f5633f/transformed/jetified-hermes-android-0.72.6-debug/AndroidManifest.xml:5:5-44
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/progforce/.gradle/caches/transforms-3/463b085172aadec89519c358dac4e9e6/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
 MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /home/progforce/.gradle/caches/transforms-3/463b085172aadec89519c358dac4e9e6/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.4] /home/progforce/.gradle/caches/transforms-3/a2486ff9fb9804fd0f05e5d2ad5423c4/transformed/jetified-lottie-3.4.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.airbnb.android:lottie:3.4.4] /home/progforce/.gradle/caches/transforms-3/a2486ff9fb9804fd0f05e5d2ad5423c4/transformed/jetified-lottie-3.4.4/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.9.0] /home/progforce/.gradle/caches/transforms-3/dd33cdba76574cd6269c5bd29e434651/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [com.google.android.material:material:1.9.0] /home/progforce/.gradle/caches/transforms-3/dd33cdba76574cd6269c5bd29e434651/transformed/material-1.9.0/AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.5.0] /home/progforce/.gradle/caches/transforms-3/aff50e2a9b3c13dbf5f6a2bb255f515d/transformed/jetified-appcompat-resources-1.5.0/AndroidManifest.xml:20:5-44

@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from 'react-native';
 import BButton from '../../components/Button';
-import BStepper from '../../components/Stepper';
+// import BStepper from '../../components/Stepper';
 import { useEffect, useRef, useState } from 'react';
 import Layout from '../../components/Layout';
 import { Animated } from 'react-native';
@@ -58,7 +58,7 @@ function Onboarding({ navigation }) {
             <Text style={styles.title}>{titleArr[step]}</Text>
             <View style={styles.stepperContainer}>
                 <BStepperTest currentStep={step} count={3}></BStepperTest>
-                <BStepper currentStep={step} count={3}></BStepper>
+                {/* <BStepper currentStep={step} count={3}></BStepper> */}
             </View>
             <BButton title={step < 2 ? 'Next' : 'Get Started'} callback={() => setNewStep()} />
         </Layout>
