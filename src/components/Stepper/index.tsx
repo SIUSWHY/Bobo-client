@@ -9,7 +9,7 @@ interface BStepperType {
 }
 
 function BStepper({ currentStep, count }: { currentStep: number; count: number }) {
-    const dotSize = useRef(new Animated.Value(7)).current;
+    const dotSize = new Animated.Value(7);
     const rangeSteps: number[] = [...Array(count).keys()];
 
     const animateDot = () => {
@@ -27,7 +27,7 @@ function BStepper({ currentStep, count }: { currentStep: number; count: number }
     return (
         <View style={styles.container}>
             {rangeSteps.map((step: number) =>
-                currentStep == step ? (
+                currentStep === step ? (
                     <Animated.View key={step} style={[styles.dot, { width: dotSize }]} />
                 ) : (
                     <View key={step} style={styles.dot} />

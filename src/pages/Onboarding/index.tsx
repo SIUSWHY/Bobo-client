@@ -1,9 +1,8 @@
 import { StyleSheet, Text, View } from 'react-native';
 import BButton from '../../components/Button';
-// import BStepper from '../../components/Stepper';
-import { useEffect, useRef, useState } from 'react';
+import BStepper from '../../components/Stepper';
+import { useState } from 'react';
 import Layout from '../../components/Layout';
-import { Animated } from 'react-native';
 import BColors from '../../utilities/colors';
 
 function Onboarding({ navigation }) {
@@ -23,42 +22,12 @@ function Onboarding({ navigation }) {
         setStep(step + 1);
     };
 
-    function BStepperTest({ currentStep, count }: { currentStep: number; count: number }) {
-        const dotSize = useRef(new Animated.Value(7)).current;
-        const rangeSteps: number[] = [...Array(count).keys()];
-
-        const animateDot = () => {
-            Animated.timing(dotSize, {
-                toValue: 25,
-                duration: 500,
-                useNativeDriver: false,
-            }).start();
-        };
-
-        useEffect(() => {
-            animateDot();
-        }, [currentStep]);
-
-        return (
-            <View style={styles.container}>
-                {rangeSteps.map((step: number) =>
-                    currentStep == step ? (
-                        <Animated.View key={step} style={[styles.dot, { width: dotSize }]} />
-                    ) : (
-                        <View key={step} style={styles.dot} />
-                    )
-                )}
-            </View>
-        );
-    }
-
     return (
         <Layout>
             <View style={styles.img}></View>
             <Text style={styles.title}>{titleArr[step]}</Text>
             <View style={styles.stepperContainer}>
-                <BStepperTest currentStep={step} count={3}></BStepperTest>
-                {/* <BStepper currentStep={step} count={3}></BStepper> */}
+                <BStepper currentStep={step} count={3}></BStepper>
             </View>
             <BButton title={step < 2 ? 'Next' : 'Get Started'} callback={() => setNewStep()} />
         </Layout>

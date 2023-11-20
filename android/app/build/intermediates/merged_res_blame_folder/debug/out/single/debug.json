@@ -1,7 +1,15 @@
 [
     {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher_background.png"
     },
     {
         "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/layout_launch_screen.xml.flat",
@@ -12,44 +20,32 @@
         "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/raw/loading3.json"
     },
     {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-hdpi/ic_launcher_monochrome.png"
+    },
+    {
         "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
-    },
-    {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/raw_loading1.json.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/raw/loading1.json"
-    },
-    {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
-    },
-    {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/drawable_rn_edit_text_material.xml.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/drawable/rn_edit_text_material.xml"
+        "merged": "com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-hdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/raw_loading.json.flat",
         "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/raw/loading.json"
     },
     {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-hdpi/ic_launcher.png"
+        "merged": "com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "com.bobo.app-merged_res-38:/layout_launch_screen.xml.flat",
-        "source": "com.bobo.app-main-40:/layout/launch_screen.xml"
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher_foreground.png"
     },
     {
-        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher_foreground.png"
     },
     {
         "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/raw_loading2.json.flat",
@@ -64,8 +60,12 @@
         "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "com.bobo.app-merged_res-38:/raw_loading.json.flat",
-        "source": "com.bobo.app-main-40:/raw/loading.json"
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher_monochrome.png"
     },
     {
         "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/drawable_background.png.flat",
@@ -74,5 +74,77 @@
     {
         "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
         "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher_background.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/raw_loading1.json.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/raw/loading1.json"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/drawable_rn_edit_text_material.xml.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/drawable/rn_edit_text_material.xml"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-merged_res-38:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/home/progforce/.gradle/daemon/8.0.1/com.bobo.app-main-40:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher_background.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.bobo.app-merged_res-38:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.bobo.app-main-40:/mipmap-mdpi/ic_launcher_monochrome.png"
     }
 ]
